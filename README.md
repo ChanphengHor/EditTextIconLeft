@@ -114,8 +114,17 @@ This method has 4 parametter
 
 ```
 	editTextIconLeft1.editText().toString();
+	editTextIconLeft2.editText().setTransformationMethod(PasswordTransformationMethod.getInstance());
 
 ```
+
+## setInputType to editText()
+
+```
+	editTextIconLeft2.editText().setTransformationMethod(PasswordTransformationMethod.getInstance());
+
+```
+
 ## Versioning
 
 I am testing how to costomize with Views and Deploying to github
