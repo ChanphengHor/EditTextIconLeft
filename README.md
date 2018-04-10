@@ -69,7 +69,7 @@ AND
       </shape>  
       ```
       
-  3. want your icon change when EditTextIconLeft is focusing ??
+ 3. want to change icon whenever EditTextIconLeft is focusing ??
   
   ![alt text](https://github.com/ChanphengHor/EditTextIconLeft/blob/master/screens/user_empty.png) ![alt text](https://github.com/ChanphengHor/EditTextIconLeft/blob/master/screens/user_empty_focus.png)
   
