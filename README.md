@@ -1,6 +1,7 @@
 # EditText has Icon Left
 
 This EditText is for android Developer which is easier for them to make an EditText View that has an Icon Left also can make focusable border and that icon .
+និយាយទៅវាងាយស្រួលនៅពេលចង់បាន EditText ដែលមាន Icon នៅខាងស្តាំ ហើយអាចប្តូរ Icon វានៅពេលមានការ Focus ទៀតហ៎រ
 
 ## Demo
 ![alt text](https://github.com/ChanphengHor/EditTextIconLeft/blob/master/screens/screen1.gif) ![alt text](https://github.com/ChanphengHor/EditTextIconLeft/blob/master/screens/screen2.gif)
