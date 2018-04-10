@@ -38,14 +38,14 @@ dependencies {
 1.Using in you xml Layout 
 
 ```
-<chanphenghor.com.library.EditTextIconLeft
-        android:id="@+id/edittexticonleft"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        app:hint="Default"  // do not use "android:hint" just use this
-        app:height="50dp"   // use "app:height" to adjust layout size
-        />
+	<chanphenghor.com.library.EditTextIconLeft
+		android:id="@+id/edittexticonleft"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		app:hint="Default"  // do not use "android:hint" just use this
+		app:height="50dp"   // use "app:height" to adjust layout size
+		/>
 ```
 2.Creating border for EditTextIconLeft
 
@@ -78,8 +78,8 @@ AND
 Explain what these tests test and why
 
 ```
-EditTextIconLeft editTextIconLeft1;
-editTextIconLeft1 = findViewById(R.id.editTextIconLeft1);
+	EditTextIconLeft editTextIconLeft1;
+	editTextIconLeft1 = findViewById(R.id.editTextIconLeft1);
 ```
 
 ### Set Border and Focus Border
@@ -87,18 +87,18 @@ editTextIconLeft1 = findViewById(R.id.editTextIconLeft1);
 This method has 4 parametter 
 
 ```
-editTextIconLeft1.setBorderFocus(
-                R.drawable.border_gray,
-                R.drawable.border_focus,
-                R.drawable.user_empty,
-                R.drawable.user_empty_focus);
+	editTextIconLeft1.setBorderFocus(
+			R.drawable.border_gray,
+			R.drawable.border_focus,
+			R.drawable.user_empty,
+			R.drawable.user_empty_focus);
 ```
 
 ## Enable & Disable
 
 ```
-editTextIconLeft1.setEnabled(false);
-editTextIconLeft1.setEnabled(true);
+	editTextIconLeft1.setEnabled(false);
+	editTextIconLeft1.setEnabled(true);
 
 ```
 
