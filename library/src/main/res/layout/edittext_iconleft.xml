@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/ll_main"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/ll_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_gray">
+        <LinearLayout
+            android:id="@+id/ll_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:gravity="start">
+            <ImageView
+                android:id="@+id/edt_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/ll_img"
+            android:layout_centerVertical="true"
+            android:gravity="start"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="8dp">
+            <EditText
+                android:id="@+id/edt_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
