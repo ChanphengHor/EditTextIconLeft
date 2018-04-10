@@ -50,24 +50,24 @@ dependencies {
 2.Creating border for EditTextIconLeft
   2.1. Normal Border (adjusting your own color)
   
-      ```
       <?xml version="1.0" encoding="utf-8"?>
       <shape xmlns:android="http://schemas.android.com/apk/res/android">
           <stroke android:color="#acacac" android:width="1dp"/>
           <corners android:radius="3dp" />
       </shape>
-      ```
+      
   2.2. Focus Border (adjusting your own color)
   
-        ```
+  
       <?xml version="1.0" encoding="utf-8"?>
       <shape xmlns:android="http://schemas.android.com/apk/res/android">
           <stroke android:color="#3F51B5" android:width="1dp"/>
           <corners android:radius="3dp" />
       </shape>  
-      ```
+      
       
   3. want your icon change when EditTextIconLeft is focusing ??
+  
   ![alt text](https://github.com/ChanphengHor/EditTextIconLeft/blob/master/screens/user_empty.png) ![alt text](https://github.com/ChanphengHor/EditTextIconLeft/blob/master/screens/user_empty_focus.png)
   
 ### Break down into end to end tests
