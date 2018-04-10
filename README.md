@@ -1,11 +1,9 @@
-# Project Title
+# EditText has Icon Left
 
-One Paragraph of project description goes here
+This EditText is for android Developer which is easier for them to make an EditText View that has an Icon Left also can make focusable border and that icon .
 
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
+![alt text](https://github.com/ChanphengHor/EditTextIconLeft/blob/master/screen1.gif)
 ### Prerequisites
 
 What things you need to install the software and how to install them
