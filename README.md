@@ -2,38 +2,71 @@
 
 This EditText is for android Developer which is easier for them to make an EditText View that has an Icon Left also can make focusable border and that icon .
 
-## Getting Started
-![alt text](https://github.com/ChanphengHor/EditTextIconLeft/blob/master/screen1.gif)
-### Prerequisites
+## Demo
+![alt text](https://github.com/ChanphengHor/EditTextIconLeft/blob/master/screens/screen1.gif)
+### Dependency
 
-What things you need to install the software and how to install them
+
 
 ```
 Give examples
 ```
 
-### Installing
+### How to add to your project
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Add the jitpack maven repository
 
 ```
-Give the example
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
 
-And repeat
+And Add the dependency
 
 ```
-until finished
+dependencies {
+	        compile 'com.github.ChanphengHor:EditTextIconLeft:0.1.0'
+	}
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+## How to use
 
-## Running the tests
+1.Using in you xml Layout 
 
-Explain how to run the automated tests for this system
-
+```
+<chanphenghor.com.library.EditTextIconLeft
+        android:id="@+id/edittexticonleft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:hint="Default"  // do not use "android:hint" just use this
+        app:height="50dp"   // use "app:height" to adjust layout size
+        />
+```
+2.Creating border for EditTextIconLeft
+  2.1. Normal Border (adjusting your own color)
+      ```
+      <?xml version="1.0" encoding="utf-8"?>
+      <shape xmlns:android="http://schemas.android.com/apk/res/android">
+          <stroke android:color="#acacac" android:width="1dp"/>
+          <corners android:radius="3dp" />
+      </shape>
+      ```
+  2.2. Focus Border (adjusting your own color)
+        ```
+      <?xml version="1.0" encoding="utf-8"?>
+      <shape xmlns:android="http://schemas.android.com/apk/res/android">
+          <stroke android:color="#3F51B5" android:width="1dp"/>
+          <corners android:radius="3dp" />
+      </shape>  
+      ```
+  3. want your icon change when EditTextIconLeft is focusing ??
+  ![alt text](https://github.com/ChanphengHor/EditTextIconLeft/blob/master/screens/user_empty.png) ![alt text](https://github.com/ChanphengHor/EditTextIconLeft/blob/master/screens/user_empty_focus.png)
+  
 ### Break down into end to end tests
 
 Explain what these tests test and why
