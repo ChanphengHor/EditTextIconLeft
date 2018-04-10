@@ -4,13 +4,7 @@ This EditText is for android Developer which is easier for them to make an EditT
 
 ## Demo
 ![alt text](https://github.com/ChanphengHor/EditTextIconLeft/blob/master/screens/screen1.gif)
-### Dependency
 
-
-
-```
-Give examples
-```
 
 ### How to add to your project
 
