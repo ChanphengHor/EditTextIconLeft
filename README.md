@@ -48,7 +48,8 @@ dependencies {
         />
 ```
 2.Creating border for EditTextIconLeft
-  2.1. Normal Border (adjusting your own color)
+
+ * *Normal Border (adjusting your own color)*.
   
       <?xml version="1.0" encoding="utf-8"?>
       <shape xmlns:android="http://schemas.android.com/apk/res/android">
@@ -56,9 +57,9 @@ dependencies {
           <corners android:radius="3dp" />
       </shape>
       
-  2.2. Focus Border (adjusting your own color)
-  
-  
+* *Focus Border (adjusting your own color)*.
+
+
       <?xml version="1.0" encoding="utf-8"?>
       <shape xmlns:android="http://schemas.android.com/apk/res/android">
           <stroke android:color="#3F51B5" android:width="1dp"/>
