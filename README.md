@@ -98,10 +98,24 @@ editTextIconLeft1.setBorderFocus(
 
 ```
 editTextIconLeft1.setEnabled(false);
-editTextIconLeft1.setEnabled(false);
+editTextIconLeft1.setEnabled(true);
 
 ```
 
+## Direct Accessing to ImageView and EditText in EditTextIconLeft with
+
+```
+	editTextIconLeft1.editText().requestFocus();
+        editTextIconLeft1.iconLeft().setVisibility(View.GONE);
+
+```
+
+## simply getText from EditTextIconLeft
+
+```
+	editTextIconLeft1.editText().toString();
+
+```
 ## Versioning
 
 I am testing how to costomize with Views and Deploying to github
